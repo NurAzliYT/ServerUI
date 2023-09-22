@@ -12,7 +12,7 @@ class ServerUI extends PluginBase{
   public function OnEnable():void{
     
   }
-  public function onCommand(CommandSender $sender, Command $command, string label, array $args):bool{
+  public function onCommand(CommandSender $sender, Command $command, string $label, array $args):bool{
     
     if($command-getName() == "ui"){
       if($sender instanceof Player){
