@@ -27,6 +27,7 @@ class ServerUI extends PluginBase{
       if(!isset($data)){
         return;
       }
+    });
       switch ($data){
           case 0;
           $inv = $player->getInventory();
@@ -59,8 +60,8 @@ class ServerUI extends PluginBase{
           break;
       }
     }
-    
-  });
+   
+                           
   $form->setTitle("ServerUI");
   $form->setContent("Server Menu");
   $form->addButton("Claim Free Diamonds");
