@@ -79,7 +79,7 @@ class ServerUI extends PluginBase implements Listener{
             }
             switch($result){
                 case 0:
-                    $this->InfoUI($player);
+                    $this->ServerUI($player);
                 break;
             }
         });
@@ -97,7 +97,7 @@ class ServerUI extends PluginBase implements Listener{
             }
             switch($result){
                 case 0:
-                    $this->InfoUI($player);
+                    $this->ServerUI($player);
                 break;
             }
         });
@@ -115,7 +115,7 @@ class ServerUI extends PluginBase implements Listener{
             }
             switch($result){
                 case 0:
-                    $this->InfoUI($player);
+                    $this->ServerUI($player);
                 break;
             }
         });
@@ -133,7 +133,7 @@ class ServerUI extends PluginBase implements Listener{
             }
             switch($result){
                 case 0:
-                    $this->InfoUI($player);
+                    $this->ServerUI($player);
                 break;
             }
         });
@@ -152,7 +152,7 @@ class ServerUI extends PluginBase implements Listener{
             }
             switch($result){
                 case 0:
-                    $this->InfoUI($player);
+                    $this->ServerUI($player);
                 break;
             }
         });
