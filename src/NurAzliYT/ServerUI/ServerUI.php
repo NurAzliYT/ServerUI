@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace NurAzliYT\InfoUI;
+namespace NurAzliYT\ServerUI;
 
 use pocketmine\Server;
 use pocketmine\player\Player;
