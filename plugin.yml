@@ -1,0 +1,14 @@
+name: ServerUI
+main: NurAzliYT\ServerUI\ServerUI
+api: 5.0.0
+version: 0.0.0.1
+author: NurAzliYT
+description: "ServerUI For Added Rewards if given permission"
+
+commands:
+ui:
+permission: server.ui
+
+permissions:
+server.ui:
+default: op
