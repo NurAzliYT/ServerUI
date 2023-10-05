@@ -10,7 +10,8 @@ use pocketmine\item\VanillaItems;
 
 class ServerUI extends PluginBase{
   public function OnEnable():void{
-    
+  this->saveDefaultConfig()
+    this->getResource(config.yml)
   }
   public function onCommand(CommandSender $sender, Command $command, string $label, array $args):bool{
     
