@@ -12,7 +12,7 @@ use pocketmine\event\Listener;
 
 use jojoe77777\FormAPI\SimpleForm;
 
-class Loader extends PluginBase implements Listener{
+class ServerUI extends PluginBase implements Listener{
     
     public function onEnable() : void
     {
@@ -33,7 +33,7 @@ class Loader extends PluginBase implements Listener{
         return true;
     }
     
-    public function InfoUI($player){
+    public function ServerUI($player){
         $form = new SimpleForm(function(Player $player, int $data = null){
         $result = $data;
         if($result === null){
@@ -61,7 +61,7 @@ class Loader extends PluginBase implements Listener{
                 break;
             }
         });
-        $form->setTitle($this->getConfig()->get("InfoUI-Title"));
+        $form->setTitle($this->getConfig()->get("ServerUI-Title"));
         $form->addButton($this->getConfig()->get("About-Button"), 0, "textures/ui/icon_book_writable");
         $form->addButton($this->getConfig()->get("Rules-Button"), 0, "textures/ui/recipe_book_icon");
         $form->addButton($this->getConfig()->get("Staff-Button"), 0, "textures/ui/icon_best3");
